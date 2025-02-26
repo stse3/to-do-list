@@ -1,0 +1,38 @@
+/*general styles */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../assets/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../assets/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../assets/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+
+html {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+/*buttons*/
+#create-task{
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: black;
+    color:rgb(238, 238, 238);
+    border-radius:25px;
+    padding:10px;
+    border:0;
+    width:700px;
+
+}
