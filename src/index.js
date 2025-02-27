@@ -1,4 +1,17 @@
 import './styles/main.css'
 import DOM from "./components/DOM.js";
 
-const todoDom = new DOM();
+
+
+
+document.addEventListeners('DOMContentLoaded',()=>{
+    const todoDom = new DOM();
+
+    //Inital render
+    //todoDom.renderProjects();
+    todoDom.renderTasks();
+
+
+
+})
+
